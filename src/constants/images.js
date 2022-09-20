@@ -39,6 +39,8 @@ import realEstateWork from '../assets/realestate.jpg';
 import travellersWork from '../assets/travellers.jpg';
 import foodWork from '../assets/food.jpg';
 import todoapp from '../assets/todoapp.png';
+import carddetails from '../assets/card-detail.PNG';
+import gymexercises from '../assets/gym.png';
 
 export default {
   email,
@@ -79,4 +81,6 @@ export default {
   travellersWork,
   foodWork,
   todoapp,
+  carddetails,
+  gymexercises
 };

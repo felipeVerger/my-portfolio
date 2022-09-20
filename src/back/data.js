@@ -38,6 +38,22 @@ export const worksData = [
         codeLink: 'https://github.com/felipeVerger/todo-app',
         imgUrl: images.todoapp,
         tags: ['All', 'React JS', 'Web App']
+    },
+    {
+        title: 'Card Details',
+        description: 'A simple and modern card details page',
+        projectLink: 'https://felipeverger.github.io/card-details/',
+        codeLink: 'https://github.com/felipeVerger/card-details',
+        imgUrl: images.carddetails,
+        tags: ['All', 'React JS', 'Web App']
+    },
+    {
+        title: 'Gym Exercises',
+        description: 'On this page you will find the exercises you are looking for.',
+        projectLink: 'https://gym-exercises-felipe.netlify.app',
+        codeLink: 'https://github.com/felipeVerger/gym-excercises-clone',
+        imgUrl: images.gymexercises,
+        tags: ['All', 'React JS', 'Web App']
     }
 ]
 
@@ -67,6 +83,26 @@ export const skills = [
         bgColor: '#edf2f8',
         icon: images.git
     },
+    {
+        name: 'Node',
+        bgColor: '#edf2f8',
+        icon: images.node
+    },
+    {
+        name: 'Redux',
+        bgColor: '#edf2f8',
+        icon: images.redux
+    },
+    {
+        name: 'Typescript',
+        bgColor: '#edf2f8',
+        icon: images.typescript
+    },
+    {
+        name: 'Sass',
+        bgColor: '#edf2f8',
+        icon: images.sass
+    }
 ]
 
 // export const experiences = [
