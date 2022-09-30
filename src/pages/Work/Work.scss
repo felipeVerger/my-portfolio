@@ -45,6 +45,13 @@
     justify-content: center;
     align-items: center;
 
+    .no-works {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(124, 26, 21);
+    }
+
     .app__work-item {
         width: 270px;
         flex-direction: column;

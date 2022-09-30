@@ -11,7 +11,7 @@ const Footer = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.sendForm('service_cmevrdf', 'template_1783c8g', e.target, '0vmvmzIQDJsW7QhxD')
+    emailjs.sendForm('service_cmevrdf', 'template_1783c8g', e.target, 'LuiZZ5lhNA0WfKf8v')
       .then((result) => {
          console.log(result);
          setLoading(false);

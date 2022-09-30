@@ -41,6 +41,7 @@ import foodWork from '../assets/food.jpg';
 import todoapp from '../assets/todoapp.png';
 import carddetails from '../assets/card-detail.PNG';
 import gymexercises from '../assets/gym.png';
+import spaceTourism from '../assets/space-tourism.PNG';
 
 export default {
   email,
@@ -82,5 +83,6 @@ export default {
   foodWork,
   todoapp,
   carddetails,
-  gymexercises
+  gymexercises,
+  spaceTourism,
 };

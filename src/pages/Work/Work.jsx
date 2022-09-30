@@ -37,7 +37,7 @@ const Work = () => {
       <h2 className='head-text'>My Special <span>works</span></h2>
       
       <div className='app__work-filter'>
-        {['Web App', 'Mobile App', 'React JS', 'HTML & CSS', 'All'].map((item, index) => (
+        {['Web App', 'Mobile App', 'React JS', 'Next JS', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -54,7 +54,7 @@ const Work = () => {
         className='app__work-portfolio'
       >
         {filterWork.length === 0 ? (
-        <h2 className='head-text'>There is no works</h2>
+        <h2 className='no-works'>There is no works done yet</h2>
         ) : filterWork.map((work, index) => (
           <div className='app__work-item app__flex' key={index}>
             <div className='app__work-img app__flex'>

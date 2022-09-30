@@ -13,7 +13,7 @@ export const worksData = [
         projectLink: 'https://nimble-gingersnap-217942.netlify.app/',
         codeLink: 'https://github.com/felipeVerger',
         imgUrl: images.realEstateWork,
-        tags: ['Web App', 'React JS']
+        tags: ['Web App', 'Next JS']
     },
     {
         title: 'Travel Landing Page',
@@ -53,6 +53,14 @@ export const worksData = [
         projectLink: 'https://gym-exercises-felipe.netlify.app',
         codeLink: 'https://github.com/felipeVerger/gym-excercises-clone',
         imgUrl: images.gymexercises,
+        tags: ['All', 'React JS', 'Web App']
+    },
+    {
+        title: 'Space Tourism',
+        description: 'Modern web app for space tourism',
+        projectLink: 'https://space-tourism-fv.netlify.app',
+        codeLink: 'https://github.com/felipeVerger/space-tourism',
+        imgUrl: images.spaceTourism,
         tags: ['All', 'React JS', 'Web App']
     }
 ]
