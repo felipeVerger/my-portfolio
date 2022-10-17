@@ -1,10 +1,25 @@
 import { images } from '../constants'
 
 export const abouts = [
-    {title: 'Frontend Developer', description: 'I love designing and developing interfaces using my creativity and knowledge. Also in this area you are always learning new things.', imgUrl: images.about01},
-    {title: 'Full Stack Developer', description: 'Although my orientation as a programmer is Frontend, it should also be noted that I have basic knowledge in other areas such as infrastructure, backend and database.', imgUrl: images.about03},
-    {title: 'React Developer', description: 'React is my favorite JavaScript library for creating user interfaces', imgUrl: images.about02},
-]
+  {
+    title: "Frontend Developer",
+    description:
+      "My passion is developing and designing friendly, modern interfaces. In the world of technology, there is always something new to learn, so I like to test myself and try new things.",
+    imgUrl: images.about01,
+  },
+  {
+    title: "Full Stack Developer",
+    description:
+      "I also have experience with databases, backends, and infrastructure. In order to create more robust and complex applications, I believe this is very important.",
+    imgUrl: images.about03,
+  },
+  {
+    title: "React Developer",
+    description:
+      "React is my favorite JavaScript library for creating user interfaces",
+    imgUrl: images.about02,
+  },
+];
   
 export const worksData = [
     {
@@ -87,9 +102,9 @@ export const skills = [
         icon: images.react
     },
     {
-        name: 'Git',
+        name: 'Redux',
         bgColor: '#edf2f8',
-        icon: images.git
+        icon: images.redux
     },
     {
         name: 'Node',
@@ -97,9 +112,9 @@ export const skills = [
         icon: images.node
     },
     {
-        name: 'Redux',
+        name: 'Express',
         bgColor: '#edf2f8',
-        icon: images.redux
+        icon: images.express
     },
     {
         name: 'Typescript',
@@ -107,20 +122,26 @@ export const skills = [
         icon: images.typescript
     },
     {
+        name: 'MongoDB',
+        bgColor: '#edf2f8',
+        icon: images.mongodb
+    },
+    {
+        name: 'MySQL',
+        bgColor: '#edf2f8',
+        icon: images.mysql
+    },
+    {
+        name: 'Git',
+        bgColor: '#edf2f8',
+        icon: images.git
+    },
+    {
         name: 'Sass',
         bgColor: '#edf2f8',
         icon: images.sass
     }
 ]
-
-// export const experiences = [
-//     {
-//         name: 'Frontend Developer',
-//         company: 'Digital House',
-//         description: 'I worked as a Frontend Developer in a project to simulate a work environment',
-//         year: 2022
-//     }
-// ]
 
 export const experiences = [
     {
