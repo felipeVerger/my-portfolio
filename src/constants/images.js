@@ -40,11 +40,15 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import realEstateWork from '../assets/realestate.jpg';
 import travellersWork from '../assets/travellers.jpg';
-import foodWork from '../assets/food.jpg';
+import foodWork from '../assets/food.jpeg';
 import todoapp from '../assets/todoapp.png';
 import carddetails from '../assets/card-detail.PNG';
 import gymexercises from '../assets/gym.png';
 import spaceTourism from '../assets/space-tourism.PNG';
+import youtube from '../assets/youtube.PNG';
+import catwiki from '../assets/catwiki.PNG';
+import travelAdvisor from '../assets/travel-advisor.png';
+import shareMe from '../assets/share-me.png'
 
 export default {
   email,
@@ -90,5 +94,9 @@ export default {
   spaceTourism,
   express,
   mongodb,
-  mysql
+  mysql,
+  youtube,
+  catwiki,
+  travelAdvisor,
+  shareMe
 };
