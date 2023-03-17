@@ -98,6 +98,14 @@ export const worksData = [
         codeLink: 'https://github.com/felipeVerger/ShareMe',
         imgUrl: images.shareMe,
         tags: ['All', 'React JS', 'Web App']
+    },
+    {
+        title: 'Blogger',
+        description: 'In Blogger the user can create, view and comment the posts',
+        projectLink: 'https://blog-brown-eight.vercel.app/',
+        codeLink: 'https://github.com/felipeVerger/Blog',
+        imgUrl: images.blog,
+        tags: ['All', 'Next JS', 'Web App']
     }
 ]
 
@@ -128,11 +136,6 @@ export const skills = [
         icon: images.react
     },
     {
-        name: 'Redux',
-        bgColor: '#edf2f8',
-        icon: images.redux
-    },
-    {
         name: 'Node',
         bgColor: '#edf2f8',
         icon: images.node
@@ -161,6 +164,11 @@ export const skills = [
         name: 'Sass',
         bgColor: '#edf2f8',
         icon: images.sass
+    },
+    {
+        name: 'TailwindCSS',
+        bgColor: '#edf2f8',
+        icon: images.tailwind
     }
 ]
 

@@ -16,10 +16,10 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
-import vue from '../assets/vue.png';
 import express from "../assets/express.png";
 import mongodb from "../assets/mongo.png";
 import mysql from "../assets/mysql.png";
+import tailwind from "../assets/tailwind.png";
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -49,6 +49,7 @@ import youtube from '../assets/youtube.PNG';
 import catwiki from '../assets/catwiki.PNG';
 import travelAdvisor from '../assets/travel-advisor.png';
 import shareMe from '../assets/share-me.png'
+import blog from "../assets/blog.png";
 
 export default {
   email,
@@ -69,7 +70,10 @@ export default {
   redux,
   sass,
   typescript,
-  vue,
+  tailwind,
+  express,
+  mongodb,
+  mysql,
   about01,
   about02,
   about03,
@@ -92,11 +96,9 @@ export default {
   carddetails,
   gymexercises,
   spaceTourism,
-  express,
-  mongodb,
-  mysql,
   youtube,
   catwiki,
   travelAdvisor,
-  shareMe
+  shareMe,
+  blog
 };

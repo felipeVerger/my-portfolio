@@ -1,24 +1,47 @@
-import React, {useState} from 'react'
+import React, {useState, useRef} from 'react'
 import { images } from '../../constants'
 import { AppWrap, MotionWrap } from '../../wrapper'
 import emailjs from '@emailjs/browser';
 import './Footer.scss'
 
 const Footer = () => {
+  const formRef = useRef();
+  const [form, setForm] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false)
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value})
+  }
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.sendForm('service_cmevrdf', 'template_1783c8g', e.target, 'LuiZZ5lhNA0WfKf8v')
-      .then((result) => {
-         console.log(result);
-         setLoading(false);
-         setIsFormSubmitted(true);
-      }, (error) => {
-          console.log(error.text);
-      });
+
+    emailjs.send(
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_VITE_TEMPLATE_ID, {
+        from_name: form.name,
+        to_name: "Felipe",
+        from_email: form.email,
+        to_email: "felipeverger123@gmail.com",
+        subject: form.subject,
+        message: form.message
+      }, process.env.REACT_APP_VITE_PUBLIC_ID)
+        .then(() => {
+          setLoading(false);
+          setIsFormSubmitted(true);
+          setForm({name: '', email: '', subject: '', message: ''});
+        }).catch((error) => {
+          setLoading(false);
+          alert("Something went wrong, I am sorry try again later")
+        })
   }
 
   return (
@@ -37,36 +60,44 @@ const Footer = () => {
       </div>
 
       {!isFormSubmitted ?
-      <form onSubmit={handleSubmit} className='app__footer-form app__flex'>
+      <form onSubmit={handleSubmit} ref={formRef} className='app__footer-form app__flex'>
         <div className='app__flex'>
           <input 
             type="text" 
+            name='name' 
+            value={form.name} 
+            onChange={handleChange}
+            placeholder="What's your name?"
             className='p-text' 
-            placeholder='Your name' 
-            name="name"
           />
         </div>
         <div className='app__flex'>
           <input 
             type="email" 
+            name='email' 
+            value={form.email} 
+            onChange={handleChange}
+            placeholder="What's your email?"
             className='p-text' 
-            placeholder='Your email' 
-            name="email"
           />
         </div>
         <div className='app__flex'>
           <input 
             type="text" 
-            className='p-text' 
+            className='p-text'
+            value={form.subject}
+            onChange={handleChange} 
             placeholder='Subject' 
             name="subject"
           />
         </div>
         <div>
           <textarea 
+            name='message' 
+            value={form.message} 
+            onChange={handleChange}
             className='p-text'
             placeholder='Your Message'
-            name="message"
           />
         </div>
         <button 
