@@ -106,6 +106,22 @@ export const worksData = [
         codeLink: 'https://github.com/felipeVerger/Blog',
         imgUrl: images.blog,
         tags: ['All', 'Next JS', 'Web App']
+    },
+    {
+        title: 'AI-Summarizer',
+        description: 'Simple and modern interface that uses AI(Chat GPT 4) to summarize any content from a provided URL',
+        projectLink: 'https://frolicking-faun-06048e.netlify.app/',
+        codeLink: 'https://github.com/felipeVerger/AI-Summarizer',
+        imgUrl: images.aisummarizer,
+        tags: ['All', 'React JS', 'Web App']
+    },
+    {
+        title: "Spotify clone",
+        description: "Play and like music from other users and add your own music",
+        projectLink: "https://spotify-clone-bay-six.vercel.app/",
+        codeLink: "https://github.com/felipeVerger/spotify-clone",
+        imgUrl: images.spotify,
+        tags: ['All', 'Next JS', 'Web App']
     }
 ]
 

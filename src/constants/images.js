@@ -50,6 +50,7 @@ import catwiki from '../assets/catwiki.PNG';
 import travelAdvisor from '../assets/travel-advisor.png';
 import shareMe from '../assets/share-me.png'
 import blog from "../assets/blog.png";
+import aisummarizer from '../assets/ai_summarizer.png';
 
 export default {
   email,
@@ -100,5 +101,6 @@ export default {
   catwiki,
   travelAdvisor,
   shareMe,
-  blog
+  blog,
+  aisummarizer
 };
