@@ -38,7 +38,7 @@ export const worksData = [
     {
         title: 'Food Recipe Project ',
         description: 'App for Cuisine Lovers',
-        projectLink: 'http://localhost:3000',
+        projectLink: 'https://delicousss.netlify.app/',
         codeLink: 'https://github.com/felipeVerger/Deliciousss',
         imgUrl: images.foodWork,
         tags: ['All', 'React JS']
