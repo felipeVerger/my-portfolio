@@ -122,6 +122,14 @@ export const worksData = [
         codeLink: "https://github.com/felipeVerger/spotify-clone",
         imgUrl: images.spotify,
         tags: ['All', 'Next JS', 'Web App']
+    },
+    {
+        title: "Threads clone",
+        description: "A thread clone from meta with additional features",
+        projectLink: "https://threads-clone-woad.vercel.app/",
+        codeLink: "https://github.com/felipeVerger/threads-clone",
+        imgUrl: images.thread,
+        tags: ["All","Next JS", "Web App"]
     }
 ]
 

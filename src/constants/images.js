@@ -51,6 +51,7 @@ import travelAdvisor from '../assets/travel-advisor.png';
 import shareMe from '../assets/share-me.png'
 import blog from "../assets/blog.png";
 import aisummarizer from '../assets/ai_summarizer.png';
+import thread from '../assets/thread.png';
 
 export default {
   email,
@@ -102,5 +103,6 @@ export default {
   travelAdvisor,
   shareMe,
   blog,
-  aisummarizer
+  aisummarizer,
+  thread
 };
